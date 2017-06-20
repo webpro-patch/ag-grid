@@ -4408,10 +4408,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	                            column.setActualWidth(pixelsForLastCol);
 	                        }
 	                        else {
-	                            pixelsForLastCol -= newWidth;
 	                            column.setActualWidth(newWidth);
 	                        }
 	                    }
+                        pixelsForLastCol -= newWidth;
 	                }
 	            }
 	        }
