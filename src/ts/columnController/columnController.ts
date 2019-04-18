@@ -1028,10 +1028,10 @@ export class ColumnController {
                         if (onLastCol) {
                             column.setActualWidth(pixelsForLastCol);
                         } else {
+                            pixelsForLastCol -= newWidth;
                             column.setActualWidth(newWidth);
                         }
                     }
-                    pixelsForLastCol -= newWidth;
                 }
             }
         }
