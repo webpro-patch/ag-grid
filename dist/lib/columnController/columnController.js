@@ -893,10 +893,10 @@ var ColumnController = (function () {
                             column.setActualWidth(pixelsForLastCol);
                         }
                         else {
-                            pixelsForLastCol -= newWidth;
                             column.setActualWidth(newWidth);
                         }
                     }
+                    pixelsForLastCol -= newWidth;
                 }
             }
         }
